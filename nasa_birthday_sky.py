@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 # NASA APOD API URL and key
-API_KEY = "VYhakus6HXE20Eiw9xFFqyEtzt7uv47Tu8wOiiH2"
+API_KEY = "YOUR API KEY"
 API_URL = "https://api.nasa.gov/planetary/apod"
 
 def get_apod(date: str):
@@ -79,3 +79,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
